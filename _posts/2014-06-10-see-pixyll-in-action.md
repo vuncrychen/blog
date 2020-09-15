@@ -18,6 +18,15 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 
 Here's an example of some ruby code with line anchors.
 
+{% highlight python %}
+from os import *
+
+print("Hello World")
+list = [a, b, c]
+for i in  list:
+  print(i)
+{% endhighlight %}
+
 {% highlight ruby lineanchors %}
 # The most awesome of classes
 class Awesome < ActiveRecord::Base
@@ -90,9 +99,10 @@ This allows your content to have the proper informational and contextual hierarc
 
 ### Images look great, too
 
-![desk](https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png)
+![desk](https://i.imgur.com/hgYu46e.jpg)
 
-_![desk](https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png)_
+_![desk](https://i.imgur.com/hgYu46e.jpg)_
+
 
 
 ### There are also pretty colors

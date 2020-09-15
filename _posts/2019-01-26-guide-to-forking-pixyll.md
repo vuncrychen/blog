@@ -16,7 +16,7 @@ Pixyll is free and open source software under the MIT license, a _permissive lic
 
 These are some of the rights for Pixyll since it is under the MIT license:[^2]
 
-1. You can **copy** Pixyll by forking it on GitHub or by any other means of copying.
+1. You can **copy** __copy__ Pixyll by forking it on GitHub or by any other means of copying.
 2. You can **use** Pixyll to publish your site without restriction or limitation.
 3. You can **change** Pixyll as you wish, and you can publish your site with a modified version of Pixyll.
 4. You can also **distribute** copies of Pixyll to other people.
