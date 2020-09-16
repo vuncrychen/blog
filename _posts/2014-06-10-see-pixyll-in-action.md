@@ -99,9 +99,9 @@ This allows your content to have the proper informational and contextual hierarc
 
 ### Images look great, too
 
-![desk](https://i.imgur.com/hgYu46e.jpg)
+![desk](https://github.com/vuncrychen/vuncrychen.github.io/blob/master/images/me.jpeg?raw=true)
 
-_![desk](https://i.imgur.com/hgYu46e.jpg)_
+_![desk](https://pic.pimg.tw/chibli/1561564904-2355357978.gif)_
 
 
 
