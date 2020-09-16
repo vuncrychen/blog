@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 想聊天？
+title: 聯絡我
 permalink: /contact/
 tags: contact
 ---
@@ -9,12 +9,12 @@ tags: contact
   {% if site.ajaxify_contact_form %}
     <form class="form-stacked">
       <label>
-        你是誰?
+        您的電子郵件
         <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email | default: "Email Address" }}">
       </label>
 
       <label>
-        想聊什麼?
+        您想說什麼?
         <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content | default: "What would you like to say?" }}" style="resize: vertical"></textarea>
       </label>
 
@@ -25,11 +25,11 @@ tags: contact
   {% else %}
     <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
       <label>
-        你是誰?
+        您的電子郵件
         <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email | default: "Email Address" }}">
       </label>
       <label>
-        想聊什麼?
+        您想說什麼?
         <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content | default: "What would you like to say?" }}" style="resize: vertical"></textarea>
       </label>
 
