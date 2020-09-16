@@ -7,6 +7,7 @@ baseurl:     ""
 url:         "http://vuncrychen.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
+ - search.html
  - about.md
  - contact.html
 
@@ -129,3 +130,12 @@ exclude:
   - README.md
   - screenshot.png
   - vendor
+# Tipue search settings
+tipue_search:
+  include:
+      pages: false
+      collections: []
+  exclude:
+      files: [search.html, index.html, tags.html]
+      categories: []
+      tags: []
