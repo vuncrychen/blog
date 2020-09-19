@@ -1,8 +1,8 @@
 ---
 layout: post
-title: python-pyramid-practice
+title: python pyramid 練習
 date: 2020-09-19 19:17
-categories:
+categories: pythonBasic
 ---
 
 ## code
