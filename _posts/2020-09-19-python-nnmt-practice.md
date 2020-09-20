@@ -2,7 +2,7 @@
 layout: post
 title: python 九九乘法表練習
 date: 2020-09-19 20:58
-categories:
+categories: pythonBasic
 ---
 
 ![result](https://github.com/vuncrychen/blogger_pic/blob/master/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202020-09-19%2020:54:42.png?raw=true)
