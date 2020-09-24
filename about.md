@@ -5,7 +5,7 @@ permalink: /about/
 tags: about
 ---
 
-![pic](https://github.com/vuncrychen/blogger_pic/blob/master/61143786_p0_master1200.jpg?raw=true)
+<!-- ![pic](https://github.com/vuncrychen/blogger_pic/blob/master/61143786_p0_master1200.jpg?raw=true)
 
 **先承認!** 我是一個肥宅, 但我正在努力, 希望能夠成為一個更有用的人!
 
@@ -15,4 +15,4 @@ tags: about
 
 也希望各位看倌可以在這邊得到幫助, 如果沒有的話也可以[聯絡我](https://vuncrychen.github.io/contact/), 我會盡量回答的 :D
 
->Happy Hunting~
+>Happy Hunting~ -->
