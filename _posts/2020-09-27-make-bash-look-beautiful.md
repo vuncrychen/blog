@@ -42,7 +42,7 @@ EOF
 
 ## note
 
-* 使用 apt-cache depends <pkg-name> 來找尋套件相依性
+* 使用 apt-cache depends (pkg-name) 來找尋套件相依性
 * EOF 代表檔案的結尾 (End Of File)
 
 ***
