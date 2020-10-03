@@ -5,7 +5,7 @@ date: 2020-09-27 16:56
 categories: bash
 ---
 
-## instruction:
+## instructions:
 
 * 安裝 python3 和 pip3  
 ```console

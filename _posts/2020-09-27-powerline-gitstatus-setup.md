@@ -5,7 +5,7 @@ date: 2020-09-27 22:37
 categories: bash
 ---
 
-## instruction:
+## instructions:
 
 * 安裝 powerline-gitstatus
 ```console
