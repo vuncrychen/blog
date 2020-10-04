@@ -1,13 +1,13 @@
 # Site settings
 title: 隨 bang 寫程式
 description: 部落格
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://vuncrychen.github.io/" # the subpath of your site, e.g. /blog
 url: "https://vuncrychen.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: vuncrychen
 user_description: 天涯何處無程式, 何必單戀一行碼
-user_title: Programmer
+user_title: 歡迎您!
 email: vuncrychen2002@gmail.com
 twitter_username: topchen5
 github_username:  vuncrychen
