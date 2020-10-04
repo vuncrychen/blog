@@ -30,15 +30,15 @@ compress_html:
 # Links to include in menu navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: 主頁
     url: /
-  - title: Series
+  - title: 分類
     url: /series
-  - title: Tags
+  - title: 標籤
     url: /tags
-  - title: About Me
+  - title: 關於
     url: /about
-  - title: Search
+  - title: 搜尋
     url: /search
 
 # exclude my node related stuff
