@@ -1,16 +1,16 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: 隨 bang 寫程式
+description: 部落格
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://vuncrychen.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
+username: vuncrychen
+user_description: 天涯何處無程式, 何必單戀一行碼
+user_title: Programmer
+email: vuncrychen2002@gmail.com
+twitter_username: topchen5
+github_username:  vuncrychen
 gplus_username:  lorem_ipsum
 disqus_username: lorem_ipsum
 
