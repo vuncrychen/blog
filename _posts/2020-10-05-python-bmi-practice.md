@@ -11,7 +11,9 @@ categories:
 twitter_text: 練習用 python 撰寫一個 bmi 計算器
 ---
 
-每日 python 練習, 今天要練習的是 BMI 的計算器, 先來看看條件需求吧!
+## 前言
+
+最近開始學習 python, 以後可能時不時就做一些練習<del>(製造廢文)</del>, 這次的練習是 bmi 計算器, 先來看看規則吧!
 
 {% highlight python %}
 bmi -> 體重除以身高(m)平方
