@@ -1,4 +1,4 @@
-I"�<h2 id="前言">前言</h2>
+I"�<h2 id="前言">前言</h2>
 
 <p>最近開始學習 python, 以後可能時不時就做一些練習<del>(製造廢文)</del>, 這次的練習是 bmi 計算器, 先來看看規則吧!</p>
 
@@ -50,7 +50,7 @@
 <hr />
 
 <h2 id="結果">結果</h2>
-<p><img src="https://github.com/vuncrychen/blogger_pic/blob/master/20201005.png?raw=true" alt="code_result" /></p>
+<p><img src="/assets/img/20201005.png" alt="code_result" /></p>
 
 <p><a href="https://github.com/vuncrychen/pythonBasic/blob/master/bmi.py" target="_blank">完整程式碼 on github</a></p>
 

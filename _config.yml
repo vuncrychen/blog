@@ -1,7 +1,7 @@
 # Site settings
 title: 隨 bang 寫程式
 description: 部落格
-baseurl: "https://vuncrychen.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/vuncrychen.github.io" # the subpath of your site, e.g. /blog
 url: "https://vuncrychen.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings

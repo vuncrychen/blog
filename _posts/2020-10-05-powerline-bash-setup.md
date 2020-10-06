@@ -2,6 +2,7 @@
 layout: post
 title: "Powerline & powerline-gitstatus 美化你的 Bash"
 date: 2020-10-04 22:51:08
+image: '/assets/img/'
 description: 讓你的 Bash 煥然一新
 tags: 
 - linux
