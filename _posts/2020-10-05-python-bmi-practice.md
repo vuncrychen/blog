@@ -2,7 +2,7 @@
 layout: post
 title: "[Python 基礎練習] BMI 計算器"
 date: 2019-10-05 18:27:25
-image: '/assets/img/'
+image: '/assets/img/post/'
 description: 練習用 python 撰寫一個 bmi 計算器
 tags: 
 - python
@@ -74,7 +74,7 @@ else:
 ---
 
 ## 結果
-![code_result](/assets/img/20201005.png)
+![code_result](/assets/img/post/20201005.png)
 
 [完整程式碼 on github](https://github.com/vuncrychen/pythonBasic/blob/master/bmi.py){:target="_blank"}
 
