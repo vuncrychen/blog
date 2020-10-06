@@ -1,9 +1,0 @@
-I"h<p>每日 python 練習, 今天要練習的是 BMI 的計算器, 先來看看條件需求吧!</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1"># bmi -&gt; 體重除以身高(m)平方
-# bmi &lt; 18.5 = 過輕
-# 24 &gt; bmi &gt; 18.5 = 適中
-# bmi &gt;= 24 = 過重</span></code></pre></figure>
-
-<p>test</p>
-:ET
