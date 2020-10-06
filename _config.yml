@@ -1,7 +1,7 @@
 # Site settings
 title: 隨 bang 寫程式
 description: 部落格
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vuncrychen.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
@@ -31,13 +31,13 @@ compress_html:
 # For external links add external: true
 links:
   - title: 主頁
-    url: /blog
+    url: /
   - title: 分類
-    url: /blog/series
+    url: /series
   - title: 標籤
-    url: /blog/tags
+    url: /tags
   - title: 關於
-    url: /blog/about
+    url: /about
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
