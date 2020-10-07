@@ -6,7 +6,7 @@ image: '/assets/img/post/'
 description: 建立乾淨的 python 工作環境
 tags: 
 - python
-- useful-tool
+- code-tool
 categories:
 - python 學習之路
 twitter_text: 建立乾淨的 python 工作環境
