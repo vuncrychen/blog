@@ -1,0 +1,7 @@
+I"Ï
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="cp">#include&lt;iostream&gt;
+</span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Hello World"</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+:ET
