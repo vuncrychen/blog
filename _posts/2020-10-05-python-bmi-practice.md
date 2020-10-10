@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Python 基礎練習] BMI 計算器"
-date: 2019-10-05 18:27:25
+date: 2020-9-30 18:27:25
 image: '/assets/img/post/'
 description: 練習用 python 撰寫一個 bmi 計算器
 tags: 
