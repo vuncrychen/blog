@@ -29,6 +29,8 @@ git config --global user.name = "使用者電子郵件"
 
 接下來請 cd 到自己的 git repository, 或者從 github clone 一個
 
+---
+
 ## 設置
 
 1.進到自己的 repository 後, 執行以下指令
