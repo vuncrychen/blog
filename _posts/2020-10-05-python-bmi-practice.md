@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Python 基礎練習] BMI 計算器"
-date: 2020-9-30 18:27:25
+date: 2020-10-01 18:27:25
 image: '/assets/img/post/'
 description: 練習用 python 撰寫一個 bmi 計算器
 tags: 
@@ -16,7 +16,7 @@ twitter_text: 練習用 python 撰寫一個 bmi 計算器
 
 最近開始學習 python, 以後可能時不時就做一些練習<del>(製造廢文)</del>, 這次的練習是 bmi 計算器, 先來看看規則吧!
 
-{% highlight cpp %}
+{% highlight python %}
 bmi -> 體重除以身高(m)平方
 bmi < 18.5 = 過輕
 24 > bmi > 18.5 = 適中

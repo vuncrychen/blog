@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git 永久記憶密碼"
-date: 2020-10-01 19:06:46
+date: 2020-10-02 19:06:46
 image: '/assets/img/post/'
 description: 解決 git 每次 push 都要求密碼的問題
 tags: 
