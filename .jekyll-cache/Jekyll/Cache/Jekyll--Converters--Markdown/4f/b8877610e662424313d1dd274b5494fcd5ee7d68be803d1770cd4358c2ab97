@@ -1,0 +1,7 @@
+I"[<h2 id="前言">前言</h2>
+
+<p>好久沒練習 python 了, 這次來練習寫一個猜數字的遊戲, 規則應該很少人會不知道吧!</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">猜一組四位數</span><span class="p">,</span> <span class="n">會收到</span> <span class="n">XAYB</span><span class="p">,</span> <span class="n">X</span> <span class="n">代表猜的數字中</span><span class="p">,</span> <span class="n">位置以及數值皆正確的</span> <span class="n">數量</span><span class="p">,</span> <span class="n">Y</span> <span class="n">代表猜的數字中</span><span class="p">.</span> <span class="n">位置不正確但數值正確的</span> <span class="n">數量</span><span class="p">,</span> <span class="n">請在機會內猜中答案</span></code></pre></figure>
+
+:ET

@@ -6,7 +6,7 @@ image: '/assets/img/post/'
 description: 練習用 python 撰寫一個 bmi 計算器
 tags: 
 - python
-- easy
+- practice
 categories:
 - python 學習之路
 twitter_text: 練習用 python 撰寫一個 bmi 計算器
@@ -74,6 +74,7 @@ else:
 ---
 
 ## 結果
+
 ![code_result](/assets/img/post/20201005.png)
 
 [完整程式碼 on github](https://github.com/vuncrychen/pythonBasic/blob/master/bmi.py){:target="_blank"}

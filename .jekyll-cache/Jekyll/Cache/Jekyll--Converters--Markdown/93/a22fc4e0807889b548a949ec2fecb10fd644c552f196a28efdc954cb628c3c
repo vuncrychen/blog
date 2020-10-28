@@ -1,0 +1,59 @@
+I"�<h2 id="前言">前言</h2>
+
+<p>好久沒練習 python 了, 這次來練習寫一個猜數字的遊戲, 規則應該很少人會不知道吧!</p>
+
+<p>猜一組四位數, 會收到 XAYB, X 代表猜的數字中, <code class="language-plaintext highlighter-rouge">位置以及數值皆正確的數量</code>, Y 代表猜的數字中. <code class="language-plaintext highlighter-rouge">位置不正確但數值正確的數量</code>, 請在機會內猜中答案</p>
+
+<h2 id="範例">範例</h2>
+
+<p>舉個例子或許比較清楚, 比如說答案是 1234, 假設玩家猜 1024, 那我就要跟玩家說 <code class="language-plaintext highlighter-rouge">2A1B</code>, 代表有 2 個數字是位置和值都是對的, 有 1 個數字是位置不對但是值是對的</p>
+
+<h2 id="思路">思路</h2>
+
+<p>首先要先生成一組答案, 使用 <code class="language-plaintext highlighter-rouge">random.sample</code> 來生成一組不重複的四位數</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="n">answer</span> <span class="o">=</span> <span class="n">random</span><span class="p">.</span><span class="n">sample</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">],</span> <span class="mi">4</span><span class="p">)</span></code></pre></figure>
+
+<p>接下來要取得玩家猜的值</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">input_guess</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"請猜出正確的四位數: "</span><span class="p">)</span></code></pre></figure>
+
+<p>之後就要開始進入迴圈, 直到玩家猜對為止, 如果猜超過10次的話, 就要讓遊戲結束</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">endgame</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">chance</span> <span class="o">=</span> <span class="mi">10</span>
+
+<span class="k">while</span> <span class="n">endgame</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">:</span>
+
+    <span class="k">if</span> <span class="n">chance</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">break</span>
+
+    <span class="n">chance</span> <span class="o">-=</span> <span class="mi">1</span></code></pre></figure>
+
+<p>將 input_guess 轉成陣列, 才可以跟 answer 比較</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">user_guess</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">input_guess</span><span class="p">]</span></code></pre></figure>
+
+<p>有幾個b</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="n">b</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="k">for</span> <span class="n">ges</span> <span class="ow">in</span> <span class="n">user_guess</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">ans</span> <span class="ow">in</span> <span class="n">answer</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">ges</span> <span class="o">==</span> <span class="n">ans</span><span class="p">:</span>
+                <span class="n">b</span> <span class="o">+=</span> <span class="mi">1</span></code></pre></figure>
+
+<p>有幾個a</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">answer</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="n">user_guess</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">==</span> <span class="n">answer</span><span class="p">[</span><span class="n">x</span><span class="p">]:</span>
+            <span class="n">a</span> <span class="o">+=</span> <span class="mi">1</span></code></pre></figure>
+
+<p>一個數字只能是 A 或 B, 不能同時是A和B, 所以要扣掉多的B</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">b</span> <span class="o">-=</span> <span class="n">a</span></code></pre></figure>
+:ET

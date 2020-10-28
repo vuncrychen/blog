@@ -1,0 +1,11 @@
+I"�<h2 id="前言">前言</h2>
+
+<p>好久沒練習 python 了, 這次來練習寫一個猜數字的遊戲, 規則應該很少人會不知道吧!</p>
+
+<p>猜一組四位數, 會收到 XAYB, X 代表猜的數字中, <code class="language-plaintext highlighter-rouge">位置以及數值皆正確的數量</code>, Y 代表猜的數字中. <code class="language-plaintext highlighter-rouge">位置不正確但數值正確的數量</code>, 請在機會內猜中答案</p>
+
+<h2 id="範例">範例</h2>
+
+<p>舉個例子或許比較清楚, 比如說答案是 1234, 假設玩家猜 1024, 那我就要跟玩家說 2A1B, <code class="language-plaintext highlighter-rouge">2A:1,4 1B:2</code></p>
+
+:ET

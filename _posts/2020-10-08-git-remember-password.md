@@ -6,7 +6,7 @@ image: '/assets/img/post/'
 description: 解決 git 每次 push 都要求密碼的問題
 tags: 
 - git
-- easy
+- tricks
 categories:
 - git 心路歷程
 twitter_text: 解決 git 每次 push 都要求密碼的問題
