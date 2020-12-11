@@ -1,0 +1,41 @@
+I"z<h2 id="前言">前言</h2>
+
+<p>今天來整理一下 Anaconda 在 Windows 上的一些操作, 最近有點忙, 所以下次再來整理 Pycharm 的設定, BTW 這篇應該會有很多截圖 :D</p>
+
+<hr />
+
+<h2 id="下載">下載</h2>
+
+<p>這個應該很簡單吧…</p>
+
+<p><a href="https://www.anaconda.com/products/individual" target="_blank">官網連結</a></p>
+
+<p><img src="/assets/img/post/20201211/anaconda_web.png" alt="anaconda_web" /></p>
+
+<hr />
+
+<h2 id="安裝">安裝</h2>
+
+<p>打開下載好的檔案, 會看到以下視窗</p>
+
+<p><img src="/assets/img/post/20201211/install-1.png" alt="install_1" /></p>
+
+<p>按下 Next</p>
+
+<p><img src="/assets/img/post/20201211/install-2.png" alt="install_2" /></p>
+
+<p>選擇 Just Me</p>
+
+<p><img src="/assets/img/post/20201211/install-3.png" alt="install_3" /></p>
+
+<p>選擇自己的安裝位置, Anaconda 沒有很大 2.7GB 而已, 但如果之後安裝很多套件…就不好說了</p>
+
+<hr />
+
+<h2 id="建立虛擬環境">建立虛擬環境</h2>
+
+<p>剛安裝完打開應該會如下圖</p>
+
+<p><img src="/assets/img/post/20201211/anaconda-screen.png" alt="anaconda_home_page" /></p>
+
+:ET
