@@ -122,4 +122,25 @@ conda activate my_env_1
 
 ![env_conda_list](/assets/img/post/20201211/env_conda_list.png)
 
-可以看到只有乾淨的 python 3.8.5 不像之前有一堆套件了, 這樣就不怕會弄亂作業系統了, 終於整理完了, 希望以上的分享能夠幫助到各位~
+可以看到只有乾淨的 python 3.8.5 不像之前有一堆套件了, 這樣就不怕會弄亂作業系統了
+
+---
+
+## 移除虛擬環境
+
+如果要移除虛擬環境, 可以使用以下指令
+
+{% highlight bash %}
+conda env remove -n 虛擬環境名稱
+{% endhighlight %}
+
+比如我想移除剛剛建立的虛擬環境, 就可以這樣打
+
+{% highlight bash %}
+conda env remove -n my_env_1
+{% endhighlight %}
+
+![env_remove](/assets/img/post/20201211/env-remove.png)
+
+以上分享希望能夠幫助到各位~
+
