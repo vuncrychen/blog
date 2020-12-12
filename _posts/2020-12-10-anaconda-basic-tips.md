@@ -62,7 +62,7 @@ twitter_text: 安裝 + 建立虛擬環境
 
 ![prompt](/assets/img/post/20201211/anaconda-prompt-screen.png)
 
-首先可以透過以下指令查看 Python 版本
+以下指令可以查看 Python 版本
 
 {% highlight bash %}
 python -V
@@ -94,7 +94,7 @@ conda env list
 
 可以看到我們只有一個叫 `(base)` 的環境, 而星號則是我們所在的環境
 
-接下來透過以下指令來建立一個叫做 `my_env_1` 的環境, 後面的 python 版本可以自行指定
+接下來透過以下指令來建立一個叫做 `my_env_1` 的環境, 後面的可以加上想安裝的套件, 這裡我選擇安裝 python, 版本可以自行指定, 這邊安裝 3.8.5
 
 {% highlight bash %}
 conda create my_env_1 python=3.8.5
