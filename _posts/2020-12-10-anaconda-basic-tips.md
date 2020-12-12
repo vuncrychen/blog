@@ -97,7 +97,7 @@ conda env list
 接下來透過以下指令來建立一個叫做 `my_env_1` 的環境, 後面的可以加上想安裝的套件, 這裡我選擇安裝 python, 版本可以自行指定, 這邊安裝 3.8.5
 
 {% highlight bash %}
-conda create my_env_1 python=3.8.5
+conda create -n my_env_1 python=3.8.5
 {% endhighlight %}
 
 ![create_env](/assets/img/post/20201211/create_env.png)
