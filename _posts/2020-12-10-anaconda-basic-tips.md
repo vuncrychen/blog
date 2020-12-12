@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Windows 篇] Anaconda 基本使用技巧"
+title: "[Windows篇] Anaconda 基本使用技巧"
 date: 2020-12-10 23:55:39
 image: '/assets/img/post/'
 description: 安裝 + 建立虛擬環境
@@ -42,7 +42,7 @@ twitter_text: 安裝 + 建立虛擬環境
 
 ![install_3](/assets/img/post/20201211/install-3.png)
 
-選擇自己的安裝位置, Anaconda 本身沒有很大 2.7GB 而已, 但如果之後安裝很多套件...就不好說了
+選擇自己的安裝位置, Anaconda 本身沒有很大 2.7GB 而已, 但如果之後安裝很多套件...就不好說了, 所以假如你只是個新手, Anaconda 預裝的套件應該就夠用了, 那麼就照預設就好, 但如果你需要安裝大量的套件, 我會建議裝在空間比較大的地方
 
 ![install_4](/assets/img/post/20201211/install-4.png)
 
@@ -122,4 +122,4 @@ conda activate my_env_1
 
 ![env_conda_list](/assets/img/post/20201211/env_conda_list.png)
 
-可以看到只有乾淨的 python 3.8.5 不像之前有一堆套件了, 這樣就不怕會弄亂作業系統了, 終於整理完了, 好多圖, 好累...等等來玩個 OSU, XD
+可以看到只有乾淨的 python 3.8.5 不像之前有一堆套件了, 這樣就不怕會弄亂作業系統了, 終於整理完了, 希望以上的分享能夠幫助到各位~
